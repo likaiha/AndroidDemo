@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F1F3F8"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/iv_error"
+        />
+
+        <TextView
+            android:id="@+id/vv_error_refresh"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/error_refresh"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:background="@drawable/btn_tv_bg"
+            android:textColor="#8DB0CB"
+            style="?android:attr/borderlessButtonStyle"
+            />
+</LinearLayout>

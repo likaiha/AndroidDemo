@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ProgressWheel -->
+    <declare-styleable name="ProgressWheel">
+        <attr name="progressIndeterminate" format="boolean" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="float" />
+        <attr name="barSpinCycleTime" format="integer" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="fillRadius" format="boolean" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="linearProgress" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="LazyViewPager">
+        <attr name="init_lazy_item_offset" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearEditText">
+        <attr name="drawableWidth" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SwitchView">
+        <attr name="hasShadow" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="primaryColorDark" format="color" />
+        <attr name="offColor" format="color" />
+        <attr name="offColorDark" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="ratioAspect" format="float" />
+        <attr name="isOpened" format="boolean" />
+    </declare-styleable>
+
+    <!--圆形imageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <!--透明的dialog-->
+    <style name="base_progress_dialog_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!--宽高成比例的 imageView-->
+    <declare-styleable name="RatioImageView">
+        <attr name="image_ratio" format="float" />
+        <attr name="image_ratioMode" format="enum">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+        </attr>
+    </declare-styleable>
+    <!--宽高成比例  RatioLayout-->
+    <declare-styleable name="RatioLayout">
+        <attr name="ratio1" format="float" />
+        <attr name="ratio" format="float" />
+        <attr name="ratio2" format="float" />
+        <attr name="ratioMode" format="enum">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="DoubleHeadedDragBar">
+        <!--进度条按钮宽高-->
+        <attr name="button_width" format="dimension" />
+        <attr name="button_height" format="dimension" />
+        <!--进图条按钮图片-->
+        <attr name="button_img" format="reference"/>
+        <!--单位字体颜色-->
+        <attr name="text_color" format="color"/>
+        <!--进图条背景颜色-->
+        <attr name="bg_color" format="color"/>
+        <!--进度条颜色-->
+        <attr name="value_color" format="color"/>
+        <!--进度条宽-->
+        <attr name="seek_height" format="dimension"/>
+    </declare-styleable>
+
+</resources>

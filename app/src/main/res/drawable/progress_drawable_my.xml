@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@mipmap/pd_anmi1"
+        android:duration="230" />
+    <item
+        android:drawable="@mipmap/pd_anmi2"
+        android:duration="230" />
+    <item
+        android:drawable="@mipmap/pd_anmi3"
+        android:duration="230" />
+    <item
+        android:drawable="@mipmap/pd_anmi4"
+        android:duration="230" />
+    <item
+        android:drawable="@mipmap/pd_anmi5"
+        android:duration="230" />
+    <item
+        android:drawable="@mipmap/pd_anmi6"
+        android:duration="230" />
+</animation-list>
