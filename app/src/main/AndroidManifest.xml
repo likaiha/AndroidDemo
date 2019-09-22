@@ -33,11 +33,8 @@
     <!-- 为了获取用户手机的IMEI，用来唯一的标识用户。 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
-    <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
-    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-    <permission
-        android:name="com.huawei.hmsagentsamplexsj.permission.PROCESS_PUSH_MSG"
-        android:protectionLevel="signatureOrSystem" />
+
+
 
     <application
         android:allowBackup="true"

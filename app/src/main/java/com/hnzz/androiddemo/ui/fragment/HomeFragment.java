@@ -138,7 +138,7 @@ public class HomeFragment extends BaseFragment {
     public void onPostmap(final boolean b, int page) {
 
 
-        EasyHttp.post(Config.homelist)
+        EasyHttp.post("appapi/user/getFinances/")
 //                .baseUrl("http://117.158.202.179:8082/hnsxmj/")
                 //如果是body的方式提交object，必须要加GsonConverterFactory.create()
                 //他的本质就是把object转成json给到服务器，所以必须要加Gson Converter
@@ -151,9 +151,9 @@ public class HomeFragment extends BaseFragment {
                 .execute(new SimpleCallBack<String>() {
                     @Override
                     public void onError(ApiException e) {
-                        Log.e("Main", "response :  " + e.getMessage());
+//                        Log.e("Main", "response :  " + e.getMessage());
 //                        ToastUtil.show(activity, e.getMessage());
-                        viewHelper.showErrorView();
+//                        viewHelper.showErrorView();
                     }
 
                     @Override
